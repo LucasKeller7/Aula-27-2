@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //    let pessoa = 
+    //     {
+    //         nome: 'Augusto Saravia',
+    //         idade: 18,
+    //         treina: true,
+
+    //         bodyBuilder: function(){
+    //             console.log('Biiirrrlllll')
+    //         },
+
+    //         imprimirNome: function(){
+    //             console.log('Nome: ' + this.nome)
+    //         },
+    //         imprimirNomeRetorno: function(){
+    //             return 'Nome: ' + this.nome
+            
+    //         pessoa.imprimirNome()
+    //         console.log(pessoa.imprimirNomeRetorno())
+    //         }
+                
+    //     }
+    //     console.log(pessoa)
+
+
+
+    // let augusto = 
+    //     {
+    //         nome: 'Augusto Saravia',
+    //         idade: 16           
+    //     }       
+    // let benitez = 
+    //     {
+    //         nome: 'Pedro Benitez',
+    //         idade: 17           
+    //     }
+    // if(augusto.idade > benitez.idade)
+    //         console.log('Mais velho: ' + augusto.nome)
+    //     else if(benitez.idade > augusto.idade)
+    //         console.log('Mais velho: ' + benitez.nome)
+    //     else 
+    //         console.log('Idades iguais')
+
+
+
+    // let augusto = {
+    //         nome: 'Augusto Saravia',
+    //         salario: 4500           
+    //     }       
+    // let benitez = {
+    //         nome: 'Pedro Benitis',
+    //         salario: 600           
+    //     }
+    // let mediaSalarial = (augusto.salario + benitez.salario)/2
+    //     console.log('Média Salarial é '+ mediaSalarial)
+
+
+
+    let retangulo = {
+            largura: 3.0,
+            altura: 4.0,
+
+            area: function(){
+                let a = this.largura * this.altura
+                console.log('Área: ' + a)
+            },
+        perimetro: function(){
+                let p = 2*(this.largura + this.altura)
+                console.log('Perímetro: ' + p)
+            },
+            diagonal: function(){
+                let d = Math.sqrt(this.largura*this.largura+this.altura*this.altura)
+                console.log('Diagonal: ' + d)
+            }
+        }
+        retangulo.area()
+        retangulo.perimetro()
+        retangulo.diagonal()
+
+    </script>
+</body>
+</html>
